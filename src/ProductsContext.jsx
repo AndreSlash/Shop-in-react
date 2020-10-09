@@ -8,7 +8,7 @@ export const ProductsProvide=props=>{
           id:1,
           category:'Christmas Ball',
           name:'Green christmas ball 24cm',
-          cost: 4.99,
+          cost: 14.99,
           image: 'https://images.homedepot-static.com/productImages/55b3c88d-cb0b-4707-b9a6-88cbad17bac6/svn/northlight-christmas-ornaments-31754928-64_1000.jpg'
         },
         {

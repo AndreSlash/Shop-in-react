@@ -18,7 +18,12 @@ function App() {
   ]);
   const [category,setCategory]=useState('Christmas Ball');
   const [page,setPage]=useState('products');
- const [singlePage,setSinglePage]=useState('1');
+  const [order,setOrder]=useState('asc');
+  const [singlePage,setSinglePage]=useState('1');
+
+  const changeOrder=(order)=>{
+    setOrder(order);
+  }
 
   const removeFromCart=(productToRemove)=>{
     setCart(cart.filter(product => product!== productToRemove))
@@ -59,7 +64,11 @@ function App() {
     <ProductsProvide>
         <div className="App">
         <header>
-          <h2 className="logo"><img src={Santa}/>ChristmasShop</h2>
+          <div className="logo-wrap">
+            <h2 className="logo">ChristmasShop</h2>
+            <img src={Santa}/>
+          </div>
+         
           <ul>
             <li className="headerBtn" onClick={()=>navigateTo(PAGE_CART)}>
               <img src={Cartimg}/> ({getCartTotal()})
@@ -74,7 +83,7 @@ function App() {
           page===PAGE_PRODUCTS &&
             <div className="wrapper">
               <Sidebar changeCategory={changeCategory}/>
-              <Products setSinglePage={setSinglePage} navigateTo={navigateTo} category={category} addToCart={addToCart}/>
+              <Products order={order} changeOrder={changeOrder} setSinglePage={setSinglePage} navigateTo={navigateTo} category={category} addToCart={addToCart}/>
             </div>
           }
 
