@@ -2,45 +2,13 @@
   font-family: 'MyFont';
   src: local('MyFont'), url(./fonts/Montserrat-Regular.ttf) format('opentype');
 }
-.App {
-  text-align: center;
-  font-family:'MyFont';
+@font-face {
+  font-family: 'MyFont2';
+  src: local('MyFont2'), url(./fonts/IndieFlower-Regular.ttf) format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .products{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -144,20 +112,16 @@ header{
   display:flex;
   justify-content: center;
   align-items: center;
-  background:rgb(255, 191, 191);
+
   border-radius:24px;
   margin-left:20px;
   padding:5px;
 }
 .logo{
-  color:rgb(160, 0, 0);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size:24px;
-
+  color:white;
+  font-family:'Indie Flower', cursive;
+  font-size:44px;
   text-align: center;
-
- 
-  
 }
 .logo-wrap img{
   width:50px;
@@ -183,16 +147,23 @@ header{
   text-decoration: none;
   list-style-type: none;
   text-align:left;
-  padding-top:30px;
+  padding:10px;
+  margin-top:10px;
   cursor:pointer;
 }
 .addToCart{
   background:rgb(165, 0, 0);
   color:white;
   border:none;
-  border-radius:24px;
+  width:200px;
   padding:15px;
   cursor: pointer;
+  transition:all .1s ease-in ;
+}
+.addToCart:hover{
+  background:white;
+  color:rgb(158, 0, 0);
+  border:1px solid rgb(158, 0, 0);
 }
 .singleWrap{
   width:70vw;
@@ -228,4 +199,22 @@ header{
 .newPrice{
   color:rgb(158, 0, 0);
   font-size:20px;
+}
+.categoryItem{
+  border:1px solid #c1c1c1;
+}
+.categoryItem:hover{
+  border:1px solid rgb(158, 0, 0);
+}
+.cartWrap{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cartPrice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

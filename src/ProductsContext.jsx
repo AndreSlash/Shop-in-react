@@ -45,16 +45,17 @@ export const ProductsProvide=props=>{
           category:'Christmas Lights',
           name:'Neon lights 2020',
           cost: 28.99,
-          image: ' https://slimages.macysassets.com/is/image/MCY/products/5/optimized/10768385_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$'
+          image: 'https://images-eu.ssl-images-amazon.com/images/I/616TAQPpW3L.jpg'
         },
         {
           id:7,
           category:'Christmas Lights',
           name:'Exclusive christmas lights',
           cost: 18.99,
-          image: ' https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRkeqxK54JNMO9HBaqjLJNNt8RmIJq0Yybk2w&usqp=CAU'
+          image: 'https://cf5.s3.souqcdn.com/item/2017/10/20/26/84/60/97/item_L_26846097_51844118.jpg'
         },
         {
+          discount:0.10,
           id:8,
           category:'Christmas Lights',
           name:'Christmas bulbs',
@@ -62,24 +63,25 @@ export const ProductsProvide=props=>{
           image: 'https://static3.emako.pl/pol_pl_Lampki-choinkowe-576-LED-swiatelka-na-choinke-kolor-zolty-46102_1.jpg'
         },
         {
+          discount:0.20,
           id:9,
           category:'Christmas Trees',
           name:'Lime christmas ball',
-          cost: 8.99,
+          cost: 48.99,
           image: ' https://images.homedepot-static.com/productImages/b7be6901-98c3-4330-b722-97e23e4de0a3/svn/costway-pre-lit-christmas-trees-cm21242-64_1000.jpg'
         },
         {
           id:10,
           category:'Christmas Trees',
           name:'Lime christmas ball',
-          cost: 8.99,
+          cost: 22.99,
           image: 'https://secure.img1-fg.wfcdn.com/im/78537617/compr-r85/1342/13429619/norway-green-spruce-artificial-christmas-tree.jpg'
         },
         {
           id:11,
           category:'Christmas Trees',
           name:'Lime christmas ball',
-          cost: 8.99,
+          cost: 30.99,
           image: 'https://images-na.ssl-images-amazon.com/images/I/71EglVV0SML._SL1500_.jpg'
         },
         {
@@ -88,14 +90,14 @@ export const ProductsProvide=props=>{
           category:'Gifts',
           name:'A red big gift',
           cost: 14.99,
-          image: 'https://previews.123rf.com/images/klikk/klikk1411/klikk141100017/33845566-stack-of-christmas-gifts-isolated-on-white-background.jpg'
+          image: 'https://cdn2.iconfinder.com/data/icons/christmas/512/gift.png'
         },
         {
           id:13,
           category:'Gifts',
           name:'Sweet present',
           cost: 12.99,
-          image: 'https://st4.depositphotos.com/10614052/21224/i/1600/depositphotos_212249854-stock-photo-beautiful-christmas-gifts-white-background.jpg'
+          image: 'https://target.scene7.com/is/image/Target/GUEST_ec534292-c0fb-463d-abce-9e17cb3aba85?wid=488&hei=488&fmt=pjpeg'
         },
         {
           id:14,
@@ -109,21 +111,22 @@ export const ProductsProvide=props=>{
           category:'Christmas Sleigh',
           name:'Little sleigh for kids',
           cost: 58.99,
-          image: 'https://images-na.ssl-images-amazon.com/images/I/61IlOR89UmL._AC_SX425_.jpg'
+          image: 'https://cdn.shopify.com/s/files/1/1741/6027/products/Snow_Racer_sled_sledge_sleigh_toboggan_for_sale_in_Ireland_www.sled.ie-500x500_large.jpg?v=1495122685'
         },
         {
-          id:15,
+          discount:0.30,
+          id:16,
           category:'Christmas Sleigh',
           name:'Professional sleighs',
           cost: 448.99,
           image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPoaq_0IFT3DxqpdnyquLeltYw-cH5Y1zFww&usqp=CAU'
         },
         {
-          id:16,
+          id:17,
           category:'Christmas Sleigh',
           name:'Amateur Sleigh',
           cost: 128.99,
-          image: ' https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMQEXoEh474pxz872gna_DU7TWs_EhwNeoqw&usqp=CAU'
+          image: ' https://images-na.ssl-images-amazon.com/images/I/41CzQlYR-pL._AC_SX522_.jpg'
         },
        
 

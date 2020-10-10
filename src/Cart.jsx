@@ -9,25 +9,27 @@ export default function Cart({ setCart,cart, removeFromCart}){
         setCart([]);
      }
     return (
-        <div>
-            <h1>Cart</h1>
-            <h3>Total cost:${countTotal()}</h3>
-            <button className="addToCart" onClick={emptyCart}>Remove All</button>
+        <div className="cartWrap">
+            <div className="cartPrice">
+                 <h1>Cart</h1>
+                <h3>Total cost:${countTotal()}</h3>
+                <button className="addToCart" onClick={emptyCart}>Remove All</button>
+            </div>
             <div className="productsCart">
              
-                {cart.map((product, idx)=>{
-                    countTotal(product.cost);
-                return(
-                <div className="productCart product" key={idx}>
-                    <h3>{product.name}</h3>
-                    <h4>${product.cost}</h4>
-                <h4>Qunatity: {product.quantity}</h4>
-                    <img src={product.image} alt="stuff"/>
-                    <button className="addToCart" onClick={()=>removeFromCart(product)}>Remove from cart</button>
-                </div>
-                )
-            })}
-        </div>
+                    {cart.map((product, idx)=>{
+                        countTotal(product.cost);
+                    return(
+                    <div className="productCart product" key={idx}>
+                        <h3>{product.name}</h3>
+                        <h4>${product.cost}</h4>
+                    <h4>Qunatity: {product.quantity}</h4>
+                        <img src={product.image} alt="stuff"/>
+                        <button className="addToCart" onClick={()=>removeFromCart(product)}>Remove from cart</button>
+                    </div>
+                    )
+                })}
+            </div>
     </div>
         
  )

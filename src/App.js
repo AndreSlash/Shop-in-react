@@ -66,7 +66,7 @@ function App() {
         <header>
           <div className="logo-wrap">
             <h2 className="logo">ChristmasShop</h2>
-            <img src={Santa}/>
+            
           </div>
          
           <ul>
