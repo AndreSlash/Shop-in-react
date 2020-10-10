@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/shop/static/css/main.0c739e7f.chunk.css",
+    "main.js": "/shop/static/js/main.8c9874f4.chunk.js",
+    "main.js.map": "/shop/static/js/main.8c9874f4.chunk.js.map",
+    "runtime-main.js": "/shop/static/js/runtime-main.94850ce0.js",
+    "runtime-main.js.map": "/shop/static/js/runtime-main.94850ce0.js.map",
+    "static/js/2.dfc2cf47.chunk.js": "/shop/static/js/2.dfc2cf47.chunk.js",
+    "static/js/2.dfc2cf47.chunk.js.map": "/shop/static/js/2.dfc2cf47.chunk.js.map",
+    "index.html": "/shop/index.html",
+    "precache-manifest.439a28d399c424f69d7d0eb563782548.js": "/shop/precache-manifest.439a28d399c424f69d7d0eb563782548.js",
+    "service-worker.js": "/shop/service-worker.js",
+    "static/css/main.0c739e7f.chunk.css.map": "/shop/static/css/main.0c739e7f.chunk.css.map",
+    "static/js/2.dfc2cf47.chunk.js.LICENSE.txt": "/shop/static/js/2.dfc2cf47.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/shop/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/santa.svg": "/shop/static/media/santa.2c3f876f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94850ce0.js",
+    "static/js/2.dfc2cf47.chunk.js",
+    "static/css/main.0c739e7f.chunk.css",
+    "static/js/main.8c9874f4.chunk.js"
+  ]
+}
